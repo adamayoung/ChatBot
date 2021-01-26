@@ -8,18 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		6F316D9825BF5683001552C9 /* ChatBotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F316D9725BF5683001552C9 /* ChatBotApp.swift */; };
-		6F316D9A25BF5683001552C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F316D9925BF5683001552C9 /* ContentView.swift */; };
+		6F316D9A25BF5683001552C9 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F316D9925BF5683001552C9 /* ChatView.swift */; };
 		6F316D9C25BF5684001552C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F316D9B25BF5684001552C9 /* Assets.xcassets */; };
 		6F316D9F25BF5684001552C9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F316D9E25BF5684001552C9 /* Preview Assets.xcassets */; };
+		6F316DA825BF56BA001552C9 /* ChatBotTextClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6F316DA725BF56BA001552C9 /* ChatBotTextClassifier.mlmodel */; };
+		6F316DAD25BF5711001552C9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F316DAC25BF5711001552C9 /* Message.swift */; };
+		6F316DB025BF5756001552C9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F316DAF25BF5756001552C9 /* User.swift */; };
+		6F316DB325BF5875001552C9 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F316DB225BF5875001552C9 /* AppModel.swift */; };
+		6F316DB725BF5B3E001552C9 /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F316DB625BF5B3E001552C9 /* MessageBubbleView.swift */; };
+		6F316DBC25BF6094001552C9 /* Bot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F316DBB25BF6094001552C9 /* Bot.swift */; };
+		6F316DC225BF62C8001552C9 /* IntentHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F316DC125BF62C8001552C9 /* IntentHandling.swift */; };
+		6F316DC525BF6326001552C9 /* WhatDayIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F316DC425BF6326001552C9 /* WhatDayIntentHandler.swift */; };
+		6FA6D37425C00A2A000CAEC5 /* IntentHandlerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6D37325C00A2A000CAEC5 /* IntentHandlerError.swift */; };
+		6FA6D38225C00D01000CAEC5 /* HackBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6D38125C00D01000CAEC5 /* HackBot.swift */; };
+		6FA6D38625C01169000CAEC5 /* BotListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA6D38525C01169000CAEC5 /* BotListView.swift */; };
+		6FE7EEE925BF663C006E8880 /* ChuckNorrisFactIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7EEE825BF663C006E8880 /* ChuckNorrisFactIntentHandler.swift */; };
+		6FE7EEF525BF6E96006E8880 /* DismissKeyboardOnDragModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7EEF425BF6E96006E8880 /* DismissKeyboardOnDragModifier.swift */; };
+		6FE7EEFD25BF70D0006E8880 /* HelloIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7EEFC25BF70D0006E8880 /* HelloIntentHandler.swift */; };
+		6FE7EF0225BF758A006E8880 /* BookHolidayIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7EF0125BF758A006E8880 /* BookHolidayIntentHandler.swift */; };
+		6FE7EF0525BF7F42006E8880 /* MessageBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE7EF0425BF7F42006E8880 /* MessageBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F19A7CB25BF85310061E76C /* ChatBot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatBot.entitlements; sourceTree = "<group>"; };
 		6F316D9425BF5683001552C9 /* ChatBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F316D9725BF5683001552C9 /* ChatBotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotApp.swift; sourceTree = "<group>"; };
-		6F316D9925BF5683001552C9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F316D9925BF5683001552C9 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		6F316D9B25BF5684001552C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F316D9E25BF5684001552C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F316DA025BF5684001552C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F316DA725BF56BA001552C9 /* ChatBotTextClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ChatBotTextClassifier.mlmodel; sourceTree = "<group>"; };
+		6F316DAC25BF5711001552C9 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6F316DAF25BF5756001552C9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		6F316DB225BF5875001552C9 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		6F316DB625BF5B3E001552C9 /* MessageBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
+		6F316DBB25BF6094001552C9 /* Bot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bot.swift; sourceTree = "<group>"; };
+		6F316DC125BF62C8001552C9 /* IntentHandling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandling.swift; sourceTree = "<group>"; };
+		6F316DC425BF6326001552C9 /* WhatDayIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatDayIntentHandler.swift; sourceTree = "<group>"; };
+		6FA6D37325C00A2A000CAEC5 /* IntentHandlerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandlerError.swift; sourceTree = "<group>"; };
+		6FA6D38125C00D01000CAEC5 /* HackBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackBot.swift; sourceTree = "<group>"; };
+		6FA6D38525C01169000CAEC5 /* BotListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotListView.swift; sourceTree = "<group>"; };
+		6FE7EEE825BF663C006E8880 /* ChuckNorrisFactIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisFactIntentHandler.swift; sourceTree = "<group>"; };
+		6FE7EEF425BF6E96006E8880 /* DismissKeyboardOnDragModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissKeyboardOnDragModifier.swift; sourceTree = "<group>"; };
+		6FE7EEF925BF7062006E8880 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
+		6FE7EEFB25BF7062006E8880 /* training.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = training.json; sourceTree = "<group>"; };
+		6FE7EEFC25BF70D0006E8880 /* HelloIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloIntentHandler.swift; sourceTree = "<group>"; };
+		6FE7EF0125BF758A006E8880 /* BookHolidayIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookHolidayIntentHandler.swift; sourceTree = "<group>"; };
+		6FE7EF0425BF7F42006E8880 /* MessageBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				6F316D9625BF5683001552C9 /* ChatBot */,
+				6FE7EEF825BF7040006E8880 /* Training Data */,
 				6F316D9525BF5683001552C9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,9 +88,16 @@
 		6F316D9625BF5683001552C9 /* ChatBot */ = {
 			isa = PBXGroup;
 			children = (
+				6F19A7CB25BF85310061E76C /* ChatBot.entitlements */,
 				6F316D9725BF5683001552C9 /* ChatBotApp.swift */,
-				6F316D9925BF5683001552C9 /* ContentView.swift */,
+				6FA6D38525C01169000CAEC5 /* BotListView.swift */,
+				6F316D9925BF5683001552C9 /* ChatView.swift */,
+				6FE7EF0425BF7F42006E8880 /* MessageBarView.swift */,
+				6F316DB625BF5B3E001552C9 /* MessageBubbleView.swift */,
+				6FE7EEF425BF6E96006E8880 /* DismissKeyboardOnDragModifier.swift */,
 				6F316D9B25BF5684001552C9 /* Assets.xcassets */,
+				6F316DAB25BF5704001552C9 /* Models */,
+				6F316DC025BF62A8001552C9 /* HackBot */,
 				6F316DA025BF5684001552C9 /* Info.plist */,
 				6F316D9D25BF5684001552C9 /* Preview Content */,
 			);
@@ -67,6 +110,73 @@
 				6F316D9E25BF5684001552C9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F316DAB25BF5704001552C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F316DB225BF5875001552C9 /* AppModel.swift */,
+				6F316DBB25BF6094001552C9 /* Bot.swift */,
+				6F316DAC25BF5711001552C9 /* Message.swift */,
+				6F316DAF25BF5756001552C9 /* User.swift */,
+				6F316DC125BF62C8001552C9 /* IntentHandling.swift */,
+				6FA6D37325C00A2A000CAEC5 /* IntentHandlerError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F316DC025BF62A8001552C9 /* HackBot */ = {
+			isa = PBXGroup;
+			children = (
+				6FA6D38125C00D01000CAEC5 /* HackBot.swift */,
+				6F316DA725BF56BA001552C9 /* ChatBotTextClassifier.mlmodel */,
+				6FA6D37925C00BD1000CAEC5 /* Greeting */,
+				6FA6D37A25C00BD9000CAEC5 /* Calendar */,
+				6FA6D37B25C00BDE000CAEC5 /* Fact */,
+				6FA6D37C25C00BE2000CAEC5 /* Absence */,
+			);
+			path = HackBot;
+			sourceTree = "<group>";
+		};
+		6FA6D37925C00BD1000CAEC5 /* Greeting */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7EEFC25BF70D0006E8880 /* HelloIntentHandler.swift */,
+			);
+			path = Greeting;
+			sourceTree = "<group>";
+		};
+		6FA6D37A25C00BD9000CAEC5 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				6F316DC425BF6326001552C9 /* WhatDayIntentHandler.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		6FA6D37B25C00BDE000CAEC5 /* Fact */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7EEE825BF663C006E8880 /* ChuckNorrisFactIntentHandler.swift */,
+			);
+			path = Fact;
+			sourceTree = "<group>";
+		};
+		6FA6D37C25C00BE2000CAEC5 /* Absence */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7EF0125BF758A006E8880 /* BookHolidayIntentHandler.swift */,
+			);
+			path = Absence;
+			sourceTree = "<group>";
+		};
+		6FE7EEF825BF7040006E8880 /* Training Data */ = {
+			isa = PBXGroup;
+			children = (
+				6FE7EEF925BF7062006E8880 /* test.json */,
+				6FE7EEFB25BF7062006E8880 /* training.json */,
+			);
+			path = "Training Data";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +248,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F316D9A25BF5683001552C9 /* ContentView.swift in Sources */,
+				6F316DB725BF5B3E001552C9 /* MessageBubbleView.swift in Sources */,
+				6FE7EEF525BF6E96006E8880 /* DismissKeyboardOnDragModifier.swift in Sources */,
+				6F316DA825BF56BA001552C9 /* ChatBotTextClassifier.mlmodel in Sources */,
+				6FE7EF0525BF7F42006E8880 /* MessageBarView.swift in Sources */,
+				6F316DB325BF5875001552C9 /* AppModel.swift in Sources */,
+				6F316DC525BF6326001552C9 /* WhatDayIntentHandler.swift in Sources */,
+				6F316DC225BF62C8001552C9 /* IntentHandling.swift in Sources */,
+				6FE7EF0225BF758A006E8880 /* BookHolidayIntentHandler.swift in Sources */,
+				6F316DBC25BF6094001552C9 /* Bot.swift in Sources */,
+				6FE7EEFD25BF70D0006E8880 /* HelloIntentHandler.swift in Sources */,
+				6F316DAD25BF5711001552C9 /* Message.swift in Sources */,
+				6F316D9A25BF5683001552C9 /* ChatView.swift in Sources */,
+				6FE7EEE925BF663C006E8880 /* ChuckNorrisFactIntentHandler.swift in Sources */,
+				6FA6D37425C00A2A000CAEC5 /* IntentHandlerError.swift in Sources */,
+				6F316DB025BF5756001552C9 /* User.swift in Sources */,
 				6F316D9825BF5683001552C9 /* ChatBotApp.swift in Sources */,
+				6FA6D38625C01169000CAEC5 /* BotListView.swift in Sources */,
+				6FA6D38225C00D01000CAEC5 /* HackBot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChatBot/ChatBot.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatBot/Preview Content\"";
 				DEVELOPMENT_TEAM = B43ZJ6HHUE;
@@ -279,6 +406,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.adam-young.ChatBot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChatBot/ChatBot.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"ChatBot/Preview Content\"";
 				DEVELOPMENT_TEAM = B43ZJ6HHUE;
@@ -301,6 +430,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "uk.co.adam-young.ChatBot";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

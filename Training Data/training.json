@@ -1,0 +1,94 @@
+[
+    {
+        "text": "hello",
+        "label": "greeting.hello"
+    },
+    {
+        "text": "hey",
+        "label": "greeting.hello"
+    },
+    {
+        "text": "hi",
+        "label": "greeting.hello"
+    },
+    {
+        "text": "good day",
+        "label": "greeting.hello"
+    },
+    {
+        "text": "howdy",
+        "label": "greeting.hello"
+    },
+    {
+        "text": "yo",
+        "label": "greeting.hello"
+    },
+    {
+        "text": "what day is it",
+        "label": "calendar.what-day"
+    },
+    {
+        "text": "what is today",
+        "label": "calendar.what-day"
+    },
+    {
+        "text": "what's the day today",
+        "label": "calendar.what-day"
+    },
+    {
+        "text": "what is today",
+        "label": "calendar.what-day"
+    },
+    {
+        "text": "when is christmas",
+        "label": "calendar.christmas-day"
+    },
+    {
+        "text": "when is christmas day",
+        "label": "calendar.christmas-day"
+    },
+    {
+        "text": "what day is christmas",
+        "label": "calendar.christmas-day"
+    },
+    {
+        "text": "what day is christmas on",
+        "label": "calendar.christmas-day"
+    },
+    {
+        "text": "is it christmas",
+        "label": "calendar.christmas-day"
+    },
+    {
+        "text": "give me a chuck norris fact",
+        "label": "fact.chuck-norris"
+    },
+    {
+        "text": "tell me a chuck norris fact",
+        "label": "fact.chuck-norris"
+    },
+    {
+        "text": "tell me about chuck norris fact",
+        "label": "fact.chuck-norris"
+    },
+    {
+        "text": "chuck norris fact",
+        "label": "fact.chuck-norris"
+    },
+    {
+        "text": "book holiday today",
+        "label": "absence.book-holiday"
+    },
+    {
+        "text": "book holiday tomorrow",
+        "label": "absence.book-holiday"
+    },
+    {
+        "text": "book holiday 13/02/2021",
+        "label": "absence.book-holiday"
+    },
+    {
+        "text": "book holiday next tuesday",
+        "label": "absence.book-holiday"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "text": "what day is it today",
+        "label": "calendar.what-day"
+    },
+    {
+        "text": "what day is it",
+        "label": "calendar.what-day"
+    },
+    {
+        "text": "when will it be christmas day",
+        "label": "calendar.christmas-day"
+    },
+    {
+        "text": "i would like to know something about chuck norris",
+        "label": "fact.chuck-norris"
+    },
+    {
+        "text": "i'd love to book a holiday on 31/01/2021",
+        "label": "absence.book-holiday"
+    },
+    {
+        "text": "can i please book a holiday",
+        "label": "absence.book-holiday"
+    }
+]
